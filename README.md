@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/beevik/timerqueue.svg?branch=master)](https://travis-ci.org/beevik/timerqueue)
+[![GoDoc](https://godoc.org/github.com/beevik/timerqueue?status.svg)](https://godoc.org/github.com/beevik/timerqueue)
+
 timerqueue
 ==========
 

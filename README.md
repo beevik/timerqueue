@@ -10,7 +10,7 @@ perform actions at clock times.
 See http://godoc.org/github.com/beevik/timerqueue for godoc-formatted API
 documentation.
 
-###Example: Scheduling timers
+## Example: Scheduling timers
 
 The following code declares an object implementing the Timer interface,
 creates a timerqueue, and adds three events to the timerqueue.
@@ -29,7 +29,7 @@ queue.Schedule(event(3), time.Date(2015, 1, 2, 0, 0, 0, 0, time.UTC))
 
 ```
 
-###Example: Peeking at the next timer to be scheduled
+## Example: Peeking at the next timer to be scheduled
 
 Using the queue initialized in the first example, the following code
 examines the head of the timerqueue and outputs the id and time of
@@ -49,7 +49,7 @@ Event 1 will be first to fire at 2015-01-01 00:00:00 +0000 UTC.
 3 events remain in the timerqueue.
 ```
 
-###Example: Popping the next timer to be scheduled
+## Example: Popping the next timer to be scheduled
 
 Using the queue initialized in the first example, this code
 removes the next timer to be executed until the queue is empty.
@@ -68,7 +68,7 @@ Event 3 fires at 2015-01-02 00:00:00 +0000 UTC.
 Event 2 fires at 2015-01-03 00:00:00 +0000 UTC.
 ```
 
-###Example: Issuing OnTimer callbacks with Advance
+## Example: Issuing OnTimer callbacks with Advance
 
 The final example shows how to dispatch OnTimer callbacks to
 timers using the timerqueue's Advance method.

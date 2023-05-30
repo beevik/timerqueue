@@ -6,12 +6,9 @@ timerqueue
 The timerqueue package implements a priority queue for objects scheduled to
 perform actions at clock times.
 
-See http://godoc.org/github.com/beevik/timerqueue for godoc-formatted API
-documentation.
-
 ## Example: Scheduling timers
 
-The following code declares an object implementing the Timer interface,
+The following code declares an object implementing the `Timer` interface,
 creates a timerqueue, and adds three events to the timerqueue.
 
 ```go

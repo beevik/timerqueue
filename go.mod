@@ -1,3 +1,3 @@
 module github.com/beevik/timerqueue
 
-go 1.17
+go 1.18
